@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Picturee">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:fitsSystemWindows="true"
+
+            android:src="@mipmap/ic_launcher"
+            android:layout_above="@+id/components"
+            android:id="@+id/particularimage"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+
+            >
+
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/components"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            >
+
+            <!--            <ImageView-->
+            <!--                android:layout_width="50dp"-->
+            <!--                android:layout_height="50dp"-->
+            <!--                android:id="@+id/mychatapp"-->
+            <!--                android:src="@drawable/ic_launcher_background"-->
+            <!--                android:layout_weight="1"></ImageView>-->
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/share"
+                android:src="@drawable/ic_launcher_background"
+                android:layout_weight="1"></ImageView>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/download"
+                android:id="@+id/download"
+                android:layout_weight="1"></ImageView>
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

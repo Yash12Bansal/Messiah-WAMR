@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph1"
+    app:startDestination="@id/chatHome">
+    <fragment
+        android:id="@+id/chatHome"
+        android:name="com.yash.messiahwamr.chatHome"
+        android:label="fragment_chat_home"
+        tools:layout="@layout/fragment_chat_home" >
+        <action
+            android:id="@+id/action_chatHome_to_eachMessengerChat"
+            app:destination="@id/eachMessengerChat" />
+    </fragment>
+    <fragment
+        android:id="@+id/eachMessengerChat"
+        android:name="com.yash.messiah.EachMessengerChat"
+        android:label="fragment_each_messenger_chat"
+        tools:layout="@layout/fragment_each_messenger_chat" />
+</navigation>

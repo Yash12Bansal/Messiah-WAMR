@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/fullscreenBackgroundColor"
+    android:theme="@style/ThemeOverlay.MessiahWamr.FullscreenContainer"
+    tools:context=".EachDeletedPhoto">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/complete"
+        android:background="@color/black"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:id="@+id/components"
+            android:orientation="horizontal"
+            android:background="@color/black"
+
+            >
+
+            <!--            <ImageView-->
+            <!--                android:layout_width="50dp"-->
+            <!--                android:layout_height="50dp"-->
+            <!--                android:id="@+id/mychatapp"-->
+            <!--                android:src="@drawable/ic_launcher_background"-->
+            <!--                android:layout_weight="1"></ImageView>-->
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/share"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="17dp"
+                android:src="@drawable/icons8_share_100__1_"
+                android:elevation="50dp"
+                android:layout_weight="1"></ImageView>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:fitsSystemWindows="true"
+
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/particularimage"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+
+            >
+
+
+        </ImageView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

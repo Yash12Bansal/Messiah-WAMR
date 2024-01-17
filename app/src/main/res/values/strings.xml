@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Messiah WAMR</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="BUILD_VERSION">29</string>
+    <string name="title_activity_each_picture">EachPicture</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_each_video">EachVideo</string>
+    <string name="title_activity_each_deleted_photo">EachDeletedPhoto</string>
+    <string name="title_activity_each_deleted_video">EachDeletedVideo</string>
+</resources>

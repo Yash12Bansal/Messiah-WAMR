@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph3"
+    app:startDestination="@id/statusHome">
+    <fragment
+        android:id="@+id/statusHome"
+        android:name="com.yash.messiahwamr.statusHome"
+        android:label="fragment_status_home"
+        tools:layout="@layout/fragment_status_home" >
+        <action
+            android:id="@+id/action_statusHome_to_video"
+            app:destination="@id/video" />
+        <action
+            android:id="@+id/action_statusHome_to_picture"
+            app:destination="@id/picture" />
+    </fragment>
+    <fragment
+        android:id="@+id/picture"
+        android:name="com.yash.messiahwamr.Picture"
+        android:label="fragment_picture"
+        tools:layout="@layout/fragment_picture" />
+    <fragment
+        android:id="@+id/video"
+        android:name="com.yash.messiahwamr.Video"
+        android:label="fragment_video"
+        tools:layout="@layout/fragment_video" />
+</navigation>
